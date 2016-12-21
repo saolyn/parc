@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@color/dialog">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/help_ip_title"
+        android:textSize="20sp"
+        android:textColor="@color/title_color"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="@string/help_ip"
+        android:textSize="15sp"
+        android:textColor="@color/main_text"/>
+
+    <TextView
+        android:id="@+id/icons"
+        android:paddingTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/help_server_title"
+        android:textSize="20sp"
+        android:textColor="@color/title_color"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:gravity="left"
+        android:text="@string/help_server"
+        android:textSize="15sp"
+        android:paddingBottom="20dp"
+        android:textColor="@color/main_text" />
+
+    <Button
+        android:id="@+id/dismiss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dismiss"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="@color/title_color"/>
+</LinearLayout>

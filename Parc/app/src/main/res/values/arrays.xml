@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="action_name_list">
+        <item>Play / Pause</item>
+        <item>Media track: next</item>
+        <item>Media track: previous</item>
+        <item>Volume: up</item>
+        <item>Volume: down</item>
+        <item>Volume: mute</item>
+        <item>Brightness: up</item>
+        <item>Brightness: down</item>
+        <item>Keyboard backlight: up</item>
+        <item>Keyboard backlight: down</item>
+        <item>Keyboard backlight: toggle </item>
+        <item>Lock Computer</item>
+        <item>Keynote: next slide</item>
+        <item>Keynote: previous slide</item>
+        <item>Keynote: start presenting</item>
+        <item>Disabled</item>
+    </string-array>
+
+    <string-array name="action_name_value">
+        <item>@string/action_play_pause</item>
+        <item>@string/action_mk_next</item>
+        <item>@string/action_mk_prev</item>
+        <item>@string/action_volume_up</item>
+        <item>@string/action_volume_down</item>
+        <item>@string/action_volume_mute</item>
+        <item>@string/action_brightness_up</item>
+        <item>@string/action_brightness_down</item>
+        <item>@string/action_keyboard_backlight_up</item>
+        <item>@string/action_keyboard_backlight_down</item>
+        <item>@string/action_keyboard_backlight_toggle</item>
+        <item>@string/action_computer_lock</item>
+        <item>@string/action_keynote_next</item>
+        <item>@string/action_keynote_previous</item>
+        <item>@string/action_keynote_start</item>
+        <item>@string/action_nop</item>
+    </string-array>
+</resources>

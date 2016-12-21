@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ch.usi.inf.mc.yapt.parc">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="ch.usi.inf.mc.yapt.parc.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ch.usi.inf.mc.yapt.parc.activities.PreferencesActivity"
+            android:label="@string/activity_preferences"
+            android:parentActivityName="ch.usi.inf.mc.yapt.parc.MainActivity"
+            android:screenOrientation="portrait"
+            >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="ch.usi.inf.mc.yapt.parc.MainActivity" />
+        </activity>
+        <activity
+            android:name="ch.usi.inf.mc.yapt.parc.activities.SendToUriActivity"
+            android:label="@string/activity_send_to_uri"
+            android:theme="@android:style/Theme.NoDisplay"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data android:scheme="udp"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
